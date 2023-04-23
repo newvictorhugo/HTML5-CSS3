@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.centraliza-dog{
+    width: 20%; margin: 0 auto; display: block;
+}
+.centraliza-cat{
+    width: 30%; 
+    margin: 0 auto; 
+    display: block;
+}
+.planoFundo{
+    background-image: url("Francesco.jpg");
+    background-repeat: repeat-x;
+}
+.titulogato{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}

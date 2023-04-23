@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário inscrição INFOESTE</title>
+</head>
+<body>
+
+    <h1>UNOESTE - Universidade do Oeste Paulista</h1>
+    <h1>Formulário para inscrição da Semana de Informática (INFOESTE)</h1>
+    <hr>
+    <br>
+    
+    <form action="">
+        <div>
+        <label for="input-nome">Nome:</label>
+        <input id="input-nome" type="text" required placeholder="Digite seu nome aqui">
+        <label for="input-tel">Telefone:</label>
+        <input type="tel" required id="input-tel" maxlength="15" placeholder="(99) 99999-9999">
+        </div> 
+        <br>
+        <div>
+            <label for="input-datanasc">Data de Nascimento:</label>
+            <input id="input-datanasc" required type="date">
+            <label for="input-sexo">Sexo:</label>
+            <input name="sexo" type="radio" required value="1">M
+            <input name="sexo" type="radio" required value="2">F
+        </div>
+        <br>
+
+        <div>
+        <label for="input-email">Email:</label>
+        <input id="input-email" type="text" required placeholder="Digite seu email">
+        <label for="input-senha">Senha:</label>
+        <input id="input-senha" type="password" required placeholder="Digite sua senha">
+        <label for="input-cpf">CPF:</label>
+        <input id="input-cpf" type="number" required placeholder="999.999.999-99">
+        </div>
+        <br>
+
+        <div>
+            <label for="cep">CEP:</label>
+            <input id="cep" type="text" required maxlength="9" placeholder="99999-999">
+            <label for="sel-cidades">Cidades:</label>
+            <select id="sel-cidades">  <!--multiple="true" insere uma caixa de texto de multiplas linhas -->
+                <option selected="selected" value="1">Pres. Prudente</option>
+                <option value="2">Ponta Porã</option> <!--selected="selected" inicia o site com a opção ja selecionada-->
+                <option value="3">Nantes</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="bairro">Bairro:</label>
+            <input id="bairro" type="text" required placeholder="Digite seu Bairro">
+            <label for="rua">Rua:</label>
+            <input id="rua" type="text" required placeholder="Digite sua Rua">
+            <label for="numero">Número:</label>
+            <input id="numero" type="number" required placeholder="Num. de moradia">
+        </div>
+        <br>
+        <div>
+            <label for="ra">R.A:</label>
+            <input id="ra" type="number" required placeholder="Digite seu R.A">
+            <label for="curso">Cursando:</label>
+            <select id="curso">
+                <option value="1">Selecione um curso</option>
+                <option value="2">Não curso área de informática e exatas</option>
+                <option value="3">Análise e Desenvolvimento de Sistemas</option>
+                <option value="4">Ciência da Computação</option>
+                <option value="5">Sistemas de Informação</option>
+                <option value="6">Física</option>
+                <option value="7">Gestão da Tecnologia da Informação</option>
+                <option value="8">Jogos Digitais</option>
+                <option value="9">Matemática</option>
+                <option value="10">Química</option>
+                <option value="11">Estatística</option>
+                <option value="12">Sistemas para Internet</option>
+            </select>
+        </div>
+        <br>
+        <div class="botoes">
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="limpar" value="Limpar">
+        </div>
+    </form>
+
+
+    
+</body>
+</html>

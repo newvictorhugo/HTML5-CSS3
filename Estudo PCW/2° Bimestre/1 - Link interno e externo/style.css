@@ -1,0 +1,13 @@
+body{
+    margin: 70px 300px 300px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.interno {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+.externo {
+  color: blue;
+  text-decoration: none;
+}
