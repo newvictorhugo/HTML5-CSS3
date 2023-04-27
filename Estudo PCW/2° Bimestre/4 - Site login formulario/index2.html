@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="">
+        <div class="formulario">
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" placeholder="Digite seu email" required>
+            </div>
+            <div>
+                <label for="telefone">Tel:</label>
+                <input id="telefone" type="tel" placeholder="Digite seu numero" required>
+            </div>
+            <div>
+                <label for="linguagem">Linguagem que você tem conhecimento:</label> <br>
+                <input id="linguagem" type="checkbox" name="JS" value="1">JS
+                <input id="linguagem" type="checkbox" name="Python" value="2">Python
+                <input id="linguagem" type="checkbox" name="PHP" value="3">PHP
+                <input id="linguagem" type="checkbox" name="C#" value="4">C#
+            </div> <br>
+            <div>
+                <label for="input-areaatuar">Preferência de atuação:</label>
+                <input name="areaatuar" type="radio" checked value="1"> Back-end
+                <input name="areaatuar" type="radio" value="2"> Front-end
+                <input name="areaatuar" type="radio" value="3"> Full-stack
+            </div>
+            <div>
+                <label for="">Escreva suas experiências profissionais:</label> <br>
+                <textarea name="" id="" cols="40" rows="5">
+                </textarea>
+
+            </div>
+            <div class="botoes">
+                <input class="cancelar" type="reset" value="Cancelar">
+                <button class="enviar" type="button"
+                onclick="alert('Formulario Enviado!')">Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

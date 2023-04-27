@@ -1,0 +1,38 @@
+body{
+    margin: 350px 820px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-image: url("imagem/Gta-San-Andreas-1366x768.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+input{
+    text-align: left;
+}
+.tela{
+    padding: 30px 10px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    width: 200px;
+}
+.botoes{
+    margin-left: 25px;
+}
+.entrar{
+    font-weight: bold;
+    background-color: rgb(0, 137, 179);
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 55px;
+    height: 25px;
+    width: auto;
+}
+.cancelar{
+    font-weight: bold;
+    background-color: gray;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: -25px;
+    height: 25px;
+}
