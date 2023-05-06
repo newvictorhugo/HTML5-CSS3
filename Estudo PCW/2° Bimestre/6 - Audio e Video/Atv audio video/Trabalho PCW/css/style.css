@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-image: url(./pcw.jpg);
+    background-size: cover;
+}
+.titulo{
+    text-align: center;
+    margin: 30px 500px 50px 500px;
+    background-color: rgba(255, 0, 149, 0.274);
+    padding: 20px;
+    border-radius: 10px;
+}
+.receita{
+    background-color: rgb(241, 243, 244);
+    padding: 10px 10px 7px 10px;
+    height: 463px;
+    border-radius: 0 10px 10px 0;
+}
+video{
+    border-radius: 10px 0 0 10px;
+    margin-left: 100px;
+}

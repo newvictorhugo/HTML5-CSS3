@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video">
+        <video src="videoplayback.mp4" autoplay muted loop></video>
+    </div>
+    
+    <div class="formulario">
+        <h1>Agende a revisão do seu veículo!</h1>
+        <form action="">
+            <div>
+                <label for="modelo">Modelo</label><br>
+                <input type="text" id="modelo" placeholder="Modelo do veículo" required>
+            </div> <br>
+            <div>
+                <label for="marca">Marca</label><br>
+                <input type="text" id="marca" placeholder="Marca do veículo" required>
+            </div> <br>
+            <div>
+                <label for="ano">Ano</label><br>
+                <input type="number" id="ano" placeholder="Ano do veículo" required>
+            </div><br>
+            <div>
+                <label for="km">Kilometragem atual</label><br>
+                <input type="number" id="km" placeholder="km rodado do veículo" required>
+            </div><br>
+            <div>
+                <label for="datahr">Data e hora</label><br>
+                <input type="datetime-local" id="data" required>
+            </div><br>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit" onclick="alert('Formulario Gravado!')">Gravar</button> 
+                <h1>♥</h1>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

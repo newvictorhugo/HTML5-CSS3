@@ -1,0 +1,12 @@
+video{
+    height: 400px;
+}
+.video{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+}
+.formulario{
+    position: absolute;
+    z-index: 2;
+}
