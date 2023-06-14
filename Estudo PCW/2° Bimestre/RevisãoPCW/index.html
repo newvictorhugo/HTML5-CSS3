@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Documento</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1>Revisão - HTML & CSS</h1>
+    </header>
+    <div class="main">
+        <section class="cadastro">
+            <h3>Cadastro do aluno para assistir um curso web:</h3> <br>
+            <form name="cad" action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" placeholder="Digite seu Nome"><br>
+                <br>
+                <label for="genero">Gênero: </label><br>
+                <input type="radio" name="opcao1" value="1"> Masculino <br>
+                <input type="radio" name="opcao1" value="2"> Fêminino <br>
+                <br>
+                <label for="curso">Curso: </label>
+                <select name="curso" id="curso">
+                    <option value="1">Selecione...</option>
+                    <option value="2">BCC</option>
+                    <option value="3">BSI</option>
+                    <option value="4">ADS</option>
+                </select><br>
+                <br>
+                <label for="qcurso">Qual curso deseja fazer:</label><br>
+                <input type="checkbox" name="opcao1" value="1"> HTML 5<br>
+                <input type="checkbox" name="opcao2" value="2"> CSS 3<br>
+                <input type="checkbox" name="opcao3" value="3"> Web Semântica<br>
+                <br>
+                <label for="obs">OBS: </label><br>
+                <textarea name="" id="" cols="30" rows="7"></textarea><br>
+                <br>
+                <button type="reset" class="limpar" onclick="alert('Formulário Limpo')">Limpar</button>
+                <button type="submit" class="enviar" onclick="alert('Parabéns, Cadastro Feito!')">Enviar</button>
+            </form>
+        </section>
+        <section class="menu">
+            <h3>Menu</h3> <br>
+            <ul style="list-style-type: circle;">
+                <li><a href="#info">Tableless</a></li>
+                <li><a href="1804 Aula Links.pdf">Link</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Lista">Lista</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Formul%C3%A1rio">Formulário</a></li>
+            </ul>
+            <div class="saibamais">
+                <a name="info"><h3>Saiba Mais...</h3></a> <br>              
+                    <p>“Tableless - sem tabela,
+                    utilização de blocos - div”</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
