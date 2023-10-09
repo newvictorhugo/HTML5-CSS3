@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="text/javascript" src="sla.js"></script>
+</head>
+<body>
+    <!--Leitura Nota-->
+    <div class="container">
+        <h1>Formulário de Notas</h1>
+        <form onsubmit="calcularMediaESituacao(event)">
+            <label for="nota1">Nota da 1ª prova:</label>
+            <input type="number" id="nota1" required step="0.01"><br>
+
+            <label for="nota2">Nota da 2ª prova:</label>
+            <input type="number" id="nota2" required step="0.01"><br>
+
+            <label for="faltas">Número de faltas:</label>
+            <input type="number" id="faltas" required><br>
+
+            <button type="submit">Calcular Média e Situação</button>
+        </form>
+
+        <div id="resultado" style="display:none;">
+            <h2>Resultado:</h2>
+            <p>Média: <span id="media"></span></p>
+            <p>Situação: <span id="situacao"></span></p>
+        </div>
+    </div>
+<br>
+<!--Venda de Veículo-->
+<div class="container">
+    <h1>Calculadora de Preço de Venda de Veículo</h1>
+    <form onsubmit="calcularPrecoVenda(event)">
+        <label for="modelo">Modelo do Veículo:</label>
+        <input type="text" id="modelo" required><br>
+
+        <label for="marca">Marca do Veículo:</label>
+        <input type="text" id="marca" required><br>
+
+        <label for="custoFabricacao">Custo de Fabricação:</label>
+        <input type="number" id="custoFabricacao" required step="0.01"><br>
+
+        <button type="submit">Calcular Preço de Venda</button>
+    </form>
+
+    <div id="resultado1" style="display:none;">
+        <h2>Preço de Venda:</h2>
+        <p>O preço de venda do veículo é: R$ <span id="precoVenda"></span></p>
+    </div>
+</div>
+<!--Ordenar Numero-->
+<div class="container">
+    <h1>Ordenar Números</h1>
+    <form onsubmit="ordenarNumeros(event)">
+        <label for="numero1">Número 1:</label>
+        <input type="number" id="numero1" required><br>
+
+        <label for="numero2">Número 2:</label>
+        <input type="number" id="numero2" required><br>
+
+        <label for="numero3">Número 3:</label>
+        <input type="number" id="numero3" required><br>
+
+        <button type="submit">Ordenar Números</button>
+    </form>
+
+    <div id="resultado2" style="display:none;">
+        <h2>Números Ordenados:</h2>
+        <p><span id="numeroOrdenado1"></span>, <span id="numeroOrdenado2"></span>, <span id="numeroOrdenado3"></span></p>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
