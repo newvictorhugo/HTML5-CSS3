@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poiret+One&family=Poppins:ital,wght@0,300;1,300&display=swap');
+  
+*{
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Poiret One', sans-serif;
+font-family: 'Poppins', sans-serif;
+align-items: center;
+text-align: center;
+
+}
+.heightDiv{
+    height: 100vmin;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.divMudarCor{
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
