@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text" size="30" required>
+            <label for="email">E-mail: </label>
+            <input id="email" type="email" size="30" required>
+            <label for="password">Senha: </label>
+            <input id="password" type="password" size="30" required>
+            <button type="button" onclick="validar()">Entrar</button>
+        </form>
+        <b><p id="errorMessage" class="error"></p></b>
+    </div>
+</body>
+</html>
